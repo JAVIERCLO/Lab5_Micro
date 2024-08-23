@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <omp.h>
     //Funcion principal
-int main() {
+int main() { 
     //Variable para numero de iteraciones.
     int N;
     // Variable para acumular la suma
-    long long suma = 0;
+    unsigned long long suma = 1;
     //Ingreso de valor para N
     printf("Ingresa el numero de iteraciones, recomiendo usar un numero muy grande: ");
     scanf("%d", &N);
