@@ -3,12 +3,9 @@
     //Funcion principal
 int main() { 
     //Variable para numero de iteraciones.
-    int N;
+    int N = 100000;
     // Variable para acumular la suma
     unsigned long long suma = 1;
-    //Ingreso de valor para N
-    printf("Ingresa el numero de iteraciones, recomiendo usar un numero muy grande: ");
-    scanf("%d", &N);
     // Inicia la medición del tiempo
     double tiempo_inicio = omp_get_wtime();
 
